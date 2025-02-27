@@ -6,6 +6,8 @@ import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
 import jakarta.ws.rs.core.Response;
 
+import java.util.Random;
+
 @Path("/affirmations")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
@@ -13,7 +15,7 @@ public class AffirmationResource {
 
     @GET
     public Response randomAffirmation() {
-        return Response.ok(new Affirmation("You are awesome!", "Quarkus")).build();
+        return Response.ok(Affirmation.listAll().get(new Random().nextInt(Affirmation.listAll().size()))).build();
     }
 
     @POST

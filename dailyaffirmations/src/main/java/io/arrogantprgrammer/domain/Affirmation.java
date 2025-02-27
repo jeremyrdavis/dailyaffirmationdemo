@@ -10,7 +10,7 @@ public class Affirmation extends PanacheEntity {
 
     private String author;
 
-    public Affirmation(String author, String text) {
+    public Affirmation(String text, String author) {
         this.author = author;
         this.text = text;
     }
