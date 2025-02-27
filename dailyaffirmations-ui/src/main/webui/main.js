@@ -13,9 +13,6 @@ document.querySelector('#app').innerHTML = `
     <div class="card">
       <button id="affirmation-button" type="button">Another Affirmation</button>
     </div>
-    <p class="read-the-docs">
-      Quinoa is a Quarkus extension which eases the development, the build and serving of single page apps or web components (built with npm : React, Angular, Vue, Lit, Svelte, Astro, SolidJS …) alongside Quarkus. It is possible to use it with a Quarkus backend in a single project.
-    </p>
   </div>
 `
 
