@@ -1,6 +1,6 @@
 export async function fetchAffirmation() {
     try {
-        const response = await fetch('http://localhost:8088/affirmations', {
+        const response = await fetch('http://dailyaffirmations:8080/affirmations', {
             headers: {
                 'Origin': 'http://localhost:8088'
             }
