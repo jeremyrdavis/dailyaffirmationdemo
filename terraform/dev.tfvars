@@ -13,7 +13,6 @@ tags = {
 
 # PostgreSQL Configuration
 postgres_admin_username = "affirmationsadmin"
-postgres_admin_password = "affirmationspass"  # In production, use a more secure method to manage secrets
 
 # Backend Container App Configuration
 backend_container_cpu    = 0.5
