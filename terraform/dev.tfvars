@@ -1,4 +1,4 @@
-resource_group_name = "dailyaffirmations-031325-rg"
+resource_group_name = "dailyaffirmations-dev-rg"
 location            = "eastus2"
 app_name            = "dailyaffirmations"
 environment         = "dev"
@@ -13,7 +13,7 @@ tags = {
 
 # PostgreSQL Configuration
 postgres_admin_username = "affirmationsadmin"
-postgres_admin_password = "affirmations031325"  # In production, use a more secure method to manage secrets
+postgres_admin_password = "affirmationspass"  # In production, use a more secure method to manage secrets
 
 # Backend Container App Configuration
 backend_container_cpu    = 0.5
